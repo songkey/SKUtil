@@ -1,4 +1,4 @@
-"global_members_lista once
+#pragma once
 #include <string>
 #include <fstream>
 #include <vector>
