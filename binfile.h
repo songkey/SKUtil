@@ -51,7 +51,7 @@ namespace sk{
 
     template<typename Dtype>
     binFW& operator<<(const std::vector<Dtype> &vec){
-      rsize_t vec_len = vec.size();
+      size_t vec_len = vec.size();
       fw_.write((char*)&vec_len, sizeof(size_t));
       fw_.write((char*)vec.data(), sizeof(Dtype)* vec_len);
 

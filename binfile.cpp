@@ -52,7 +52,7 @@ namespace sk{
   }
 
   binFW& binFW::operator<<(const std::string& str){
-    rsize_t str_len = str.length();
+    size_t str_len = str.length();
     fw_.write((char*)&str_len, sizeof(size_t));
     fw_.write((char*)str.data(), str_len);
 
