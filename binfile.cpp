@@ -1,4 +1,4 @@
-nclude "binfile.h"
+include "binfile.h"
 
 namespace sk{
 
